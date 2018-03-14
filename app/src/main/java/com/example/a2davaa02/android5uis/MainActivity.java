@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar1);
         setSupportActionBar(toolbar);
-        FloatingActionButton fab=new FloatingActionButton(this);
+        FloatingActionButton fab=(FloatingActionButton)findViewById(R.id.fab1);
         fab.setOnClickListener (new View.OnClickListener() {
 
             public void onClick(View view) {
